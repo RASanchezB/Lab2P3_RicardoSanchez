@@ -100,17 +100,17 @@ int ejercicio3(){
             comprobar2 = true;
             if(j + i == num){
                 for(int k = 1; k < i; i++){
-                    if(i%k == 0 && k!= 1 && i!=k && i != 1){
+                    if(i%k == 0 && k!= 1 && i!=k){
                         comprobar1 = false;
                     }
                     for(int l = 1;l <j; j++){
-                        if(j%l == 0 && l!= 1 && l!=j && j != 1){
+                        if(j%l == 0 && l!= 1 && l!=j){
                             comprobar2 = false;
                         }  
                     }
                 }   
                 if(comprobar1 == true && comprobar2 == true && i < 151 && j < 151 && i > 0 && j > 0){
-       cout<<"Los dos numeros primos que suman el numero ingresado son: "<< i <<" y "<< j<<endl;
+       cout<<"Los dos numeros primos que suman el numero ingresado son: "<< i <<" y "<< j <<endl;
                 }//Fin if de impresion de respuesta
             }//Fin if comprueba la suma
         }//fin for j  
