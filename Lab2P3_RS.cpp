@@ -100,11 +100,11 @@ int ejercicio3(){
             comprobar2 = true;
             if(j + i == num){
                 for(int k = 1; k < i; i++){
-                    if(i%k == 0 && k!= 1 && i!=k){
+                    if(i%k == 0 && k!= 1 && i!=k && i != 1){
                         comprobar1 = false;
                     }
                     for(int l = 1;l <j; j++){
-                        if(j%l == 0 && l!= 1 && l!=j){
+                        if(j%l == 0 && l!= 1 && l!=j && j != 1){
                             comprobar2 = false;
                         }  
                     }
